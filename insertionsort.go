@@ -1,4 +1,6 @@
 //CLRS problem 2.1 and 2.1.2 combined
+//Implement the insertion sort algorithm to sort an array 
+//in both ascending and descending order
 
 package main 
 
