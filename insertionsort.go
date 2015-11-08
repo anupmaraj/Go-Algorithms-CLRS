@@ -1,3 +1,5 @@
+//CLRS problem 2.1 and 2.1.2 combined
+
 package main 
 
 import "fmt"
