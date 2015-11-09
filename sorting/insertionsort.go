@@ -32,7 +32,7 @@ func insertionsortascending(list []int){
 
 
 func main(){
-	list:= []int{12,4,56,22,10,7,1,0}
+	list:= []int{12,4,56,22,10,7,1,0, 99, 654, 88}
 	fmt.Println("\nUnsorted List=", list)
 
 	insertionsortdescending(list)

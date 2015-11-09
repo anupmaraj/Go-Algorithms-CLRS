@@ -6,7 +6,7 @@ import "fmt"
 import "math/rand"
 
 func selectionSort(array []int){
-	for i := 0; i < len(array); i++ {
+	for i := 0; i < len(array)-1; i++ {
 		min := i
 		for j := i + 1; j < len(array); j++ {
 			if array[j] < array[min] {
@@ -18,7 +18,7 @@ func selectionSort(array []int){
 }
 
 func main() {
-	n := 10							//array length
+	n := 12							//array length
 	array := make([]int, n) 		//generate array
 	for i := 0; i <= n - 1; i++ {	//fill araay with random int values
         array[i] = rand.Intn(n)
