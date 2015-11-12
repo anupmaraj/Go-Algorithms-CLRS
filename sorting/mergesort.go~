@@ -3,7 +3,7 @@
 Worst Case Performance: O(n log n)
 Average Case Performance:O(n log n) typical, O(n) natural variant
 Best Case Performance:O(n log n)
-Worst Case Space Complexity:O(n) total, O(n) auxiliary
+Worst Case Space Complexity:O(n) total, O(1) auxiliary
 
 */
 

@@ -1,10 +1,6 @@
 /*CLRS Prblem 2.1.3: Linear search scans through the sequence, 
 looking for value 'v'. Using a loop invariant, prove that 
-your algorithm is correct.
-
-Linear Search-linear search or sequential search is a method for finding a particular value in a list that checks each element in sequence until the desired element is found or the list is exhausted.
-
-*/
+your algorithm is correct.*/
 
 //CLRS asks to return nil value for array index variable if 
 //value not found but in golang ->cannot assign nil value to int

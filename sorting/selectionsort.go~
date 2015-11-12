@@ -5,7 +5,7 @@ Selection Sort-The algorithm divides the input list into two parts: the sublist 
 Worst Case Performance: O(n^2)
 Average Case Performance:O(n^2)
 Best Case Performance:O(n^2)
-Worst Case Space Complexity:o(n) total, O(1) auxiliary
+Worst Case Space Complexity:O(1) auxiliary
 
 */
 

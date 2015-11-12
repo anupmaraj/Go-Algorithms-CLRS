@@ -1,14 +1,6 @@
-/*CLRS problem 2.1 and 2.1.2 combined
-Implement the Insertion sort algorithm to sort an array in both ascending and descending order
-
-Insertion Sort-simple sorting algorithm that builds the final sorted array (or list) one item at a time. 
-
-Worst Case Performance: O(n^2)
-Average Case Performance:Ω(n) comparisons, O(1) swaps
-Best Case Performance:O(n^2) comparisons, swaps
-Worst Case Space Complexity:O(n) total, O(1) auxiliary
-
-*/
+//CLRS problem 2.1 and 2.1.2 combined
+//Implement the insertion sort algorithm to sort an array 
+//in both ascending and descending order
 
 package main 
 
