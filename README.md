@@ -9,7 +9,7 @@ The solutions have been grouped with their tests. The comments on top of each pr
 
 ALGORITHMS
 
-[Sorting:](Sorting)
+[Sorting:](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/sorting)
 1. Bubble Sort 
 2. Selection Sort
 3. Merge Sort
