@@ -1,5 +1,5 @@
 # Go-Algorithms-CLRS
-Solutions of exercises from 'Introduction to Algorithms' CLRS (Cormen, Leiserson, Rivest, Stein) implemented in Golang.
+**Solutions of exercises from 'Introduction to Algorithms' CLRS (Cormen, Leiserson, Rivest, Stein) implemented in Golang.**
 
 The solutions have been grouped with their tests. The comments on top of each program mention:
 - The problem number in the CLRS book with format 'chapter.section.exercise' 
@@ -26,3 +26,8 @@ The solutions have been grouped with their tests. The comments on top of each pr
 	* [Divide and Conquer Maximum Sum Sub-array](https://github.com/anupmaraj/Go-Algorithms-CLRS/blob/master/problems/maximumsubarray/DivideAndConquerMaxSumSubarray.go)
 	* [Recursive Maximum Sum Sub-array](https://github.com/anupmaraj/Go-Algorithms-CLRS/blob/master/problems/maximumsubarray/MaxProductSubarray.go)
 	* [Maximum Product Sub-array](https://github.com/anupmaraj/Go-Algorithms-CLRS/blob/master/problems/maximumsubarray/RecursiveMaxSumSubarray.go)
+
+
+###[Matrices](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices)
+1. [Matrix Addition](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices/matrixaddition.go)
+2. [printrowandcolumn](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices/printrowandcolumn.go)
