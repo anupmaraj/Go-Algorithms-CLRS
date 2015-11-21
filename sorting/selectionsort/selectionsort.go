@@ -22,14 +22,15 @@ func selectionSort(array []int){
 				min = j
 			}
 		}
-		array[i], array[min] = array[min], array[i] 	//swap values
+		array[i], array[min] = array[min], array[i] 
 	}
 }
 
 func main() {
-	n := 12							//array length
-	array := make([]int, n) 		//generate array
-	for i := 0; i <= n - 1; i++ {	//fill araay with random int values
+	//array of length n
+	n := 12							
+	array := make([]int, n) 		
+	for i := 0; i <= n - 1; i++ {	
         array[i] = rand.Intn(n)
     }
 

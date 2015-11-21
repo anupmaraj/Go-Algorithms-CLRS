@@ -15,7 +15,8 @@ import "fmt"
 import "math/rand"
 
 func linearsearch(a []int, v int){
-	var counter int		//to keep track of more than one occurance
+	//to keep track of more than one occurance: counter
+	var counter int											
 	for i:=0; i<len(a); i++{
 		if a[i]==v{
 			fmt.Println("Value", v, "at position", i+1)
@@ -28,13 +29,15 @@ func linearsearch(a []int, v int){
 }
 
 func main(){
-	n := 10							//array length
-	A := make([]int, n) 			//generate array
-	for i := 0; i <= n - 1; i++ {	//fill araay with random int values
+	// array length stored in n
+	n := 10												
+	A := make([]int, n) 							
+	for i := 0; i <= n - 1; i++ {	
         A[i] = rand.Intn(n)
     }
     fmt.Println("Array: ",A)
-    //A:= []int{2,3,4,5,}		//in case you want to define the array yourself
-	V := 0		//value being searched
+    //in case you want to define the array A yourself--> A:= []int{2,3,4,5,}			
+	//value being searched V
+	V := 0							
 	linearsearch(A, V)
 }

@@ -14,7 +14,8 @@ package main
 import "fmt"
 
 func BubbleSort(arr []int){
-	length := len(arr)-1			//index value for array
+	//index value for array
+	length := len(arr)-1			
 	for i:=0; i<length-1; i++{
 		for j:=length; j>i; j--{
 			if arr[j] < arr[j-1]{

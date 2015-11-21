@@ -14,7 +14,7 @@ import "fmt"
 func Merge(left, right []int) []int {
     result := make([]int, 0, len(left) + len(right))
     
-    for len(left) > 0 || len(right) > 0 {
+    for len(left) > 0 || len(right) > 0 {			
         if len(left) == 0 {
             return append(result, right...)
         }
@@ -39,12 +39,11 @@ func MergeSort(arr []int) []int {
     middle := len(arr) / 2
     left := MergeSort(arr[:middle])
     right := MergeSort(arr[middle:])
-    fmt.Println(left, right)
     return Merge(left, right)
 }
 
 func main() {
-    arr := []int{10,4,3,2,7,9,5,88,12,16}
+    arr := []int{10,4,3,2,7,9,5,33,6,39,453454,88,12,16}
     fmt.Println("Initial array is:", arr)
     fmt.Println("Sorted array is: ", MergeSort(arr))
 }

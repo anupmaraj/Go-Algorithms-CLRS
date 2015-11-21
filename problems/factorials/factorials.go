@@ -17,7 +17,5 @@ func factorial(n int){
 
 func main(){
 	var n int = 10
-	// fmt.Print("Enter number whose factorial you want to calculate: ")
- //    fmt.Scanf("%d", &n)
 	factorial(n)
 }
