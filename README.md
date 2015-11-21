@@ -29,5 +29,5 @@ The solutions have been grouped with their tests. The comments on top of each pr
 
 
 ###[Matrices](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices)
-1. [Matrix Addition](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices/matrixaddition.go)
-2. [printrowandcolumn](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices/printrowandcolumn.go)
+1. [Matrix Addition](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices/matrixaddition)
+2. [printrowandcolumn](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices/printrowandcolumn)
