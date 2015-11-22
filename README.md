@@ -16,7 +16,8 @@ The solutions have been grouped with their tests. The comments on top of each pr
 4. [Insertion Sort](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/sorting/insertionsort)
 
 ###[Searching:](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/searching) 
-1. [Linear search]()
+1. [Linear Search](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/searching/linearsearch)
+2. [Random Search](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/searching/randomsearch)
 
 ###[Problems:](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/problems)
 1. [Fibonacci](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/problems/fibonacci)
