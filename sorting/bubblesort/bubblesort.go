@@ -26,7 +26,7 @@ func BubbleSort(arr []int){
 }
 
 func main(){
-	arr := []int{10,4,3,2,7,9,5,88,12,16}
+    arr := []int{10,4,3,2,7,9,5,88,12,16}
     fmt.Println("Initial array is:", arr)
     BubbleSort(arr)
     fmt.Println("Sorted array is: ", arr)
