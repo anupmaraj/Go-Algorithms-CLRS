@@ -18,8 +18,8 @@ func BubbleSort(arr []int){
 	length := len(arr)-1			
 	for i:=0; i<length-1; i++{
 		for j:=length; j>i; j--{
-			if arr[j] < arr[j-1]{
-				arr[j], arr[j-1] = arr[j-1], arr[j]
+			if arr[j] < arr[j-1]{ //Check if previous value is greater than current value
+				arr[j], arr[j-1] = arr[j-1], arr[j] //Swap previous value with current value
 			}
 		}
 	}
