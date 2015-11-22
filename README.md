@@ -23,11 +23,11 @@ The solutions have been grouped with their tests. The comments on top of each pr
 2. [Factorials](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/problems/factorials)
 3. [Maximum Sub Array:](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/problems/maximumsubarray)
 	* [Brute Force Maximum Sum Sub-array](https://github.com/anupmaraj/Go-Algorithms-CLRS/blob/master/problems/maximumsubarray/BruteForceMaxSumSubarray.go)
-	* [Divide and Conquer Maximum Sum Sub-array](https://github.com/anupmaraj/Go-Algorithms-CLRS/blob/master/problems/maximumsubarray/DivideAndConquerMaxSumSubarray.go)
 	* [Recursive Maximum Sum Sub-array](https://github.com/anupmaraj/Go-Algorithms-CLRS/blob/master/problems/maximumsubarray/MaxProductSubarray.go)
 	* [Maximum Product Sub-array](https://github.com/anupmaraj/Go-Algorithms-CLRS/blob/master/problems/maximumsubarray/RecursiveMaxSumSubarray.go)
 
 
 ###[Matrices](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices)
-1. [Matrix Addition](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices/matrixaddition)
-2. [printrowandcolumn](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices/printrowandcolumn)
+1. [printrowandcolumn](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices/printrowandcolumn)
+2. [Matrix Addition](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices/matrixaddition)
+3. [Square Matrix Multiplication](https://github.com/anupmaraj/Go-Algorithms-CLRS/tree/master/matrices/squarematrixmultiplication)

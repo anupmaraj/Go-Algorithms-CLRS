@@ -8,8 +8,11 @@ import "fmt"
 
 func PrintRows(x [][]int, n int) {
 	fmt.Println("Rows are:")
-	for j := 0; j < n; j++ {
-		fmt.Println(x[j:j+1][:])
+	for i := 0; i < n; i++ {
+		for j := 0; j < n; j++ {
+			fmt.Printf("%d ",x[i][j])
+		} 
+		fmt.Printf("\n \n")
 	}
 }
 

@@ -38,6 +38,6 @@ func max(a, b int) int{
 }
 
 func main() {
-	arr := []int{3,-2,5,-1, 20, 8}
+	arr := []int{3,-200,5,-1, 20, 8}
 	fmt.Println(MSS(arr))
 }

@@ -1,4 +1,6 @@
-/* The Theory behind addition of matrices can be found here: https://en.wikipedia.org/wiki/Matrix_addition
+/* Matrix Addition: The Theory behind addition of matrices can be found here: https://en.wikipedia.org/wiki/Matrix_addition
+
+Matrix addition is not possible if both matrices are not of the same size. 
 */
 
 package main 
@@ -18,6 +20,7 @@ func MatrixAddition(m1 [][]int, m2 [][]int, rows int, columns int) [][]int{
 func main() {
 	m1 := [][]int{{1,2,3},{4,5,6}}
 	m2 := [][]int{{7,8,9}, {10,11,12}}
+
 	//check if lengths of both matrices are equal
 	if len(m1) == len(m2){	
 		rows := len(m1)
